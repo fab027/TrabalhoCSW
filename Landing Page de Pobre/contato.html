@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title> 
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+        <body>
+    </div>
+    <div class="background">
+<header>
+    <div class="logo">
+        <a href="https://www.youtube.com/watch?v=YUjs0i72ZIw"><img src="imagens/fotodopai2.jpg" alt="imagemperfil" class="imagem"></a>
+    </div>
+    <div class="cabeca">
+        <li>
+            <a href="index.html">Página Principal</a>
+        </li>
+        <li>
+           <a href="sobre.html">Sobre Mim</a>
+        </li>
+        <li>
+            <a href="servicos.html">Serviços</a>
+        </li>
+        <li>
+           <a href="projetos.html">Projetos</a>
+        </li>
+        <a href="contato.html"><button class="botao">Meu Contato</button></a>
+    </div>
+</header>
+
+    <div class="Nome"><form action="#" method="post">
+        <label for="nome">Nome Completo:</label><br />
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome completo"
+          required
+        /><br /><br />
+    </div>
+
+      <div class="Telefone"><label for="telefone">Telefone:</label><br />
+        <input
+          type="tel"
+          id="telefone"
+          name="telefone"
+          placeholder="Digite seu telefone"
+          required
+        /><br /><br />
+    </div>
+
+      <div class="email"><label for="email">E-mail:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Digite seu e-mail"
+          required
+        /><br /><br />
+    </div>
+
+      <div class="tipopessoa"><label for="tipo-pessoa">Você é:</label><br />
+        <input
+          type="radio"
+          id="fisica"
+          name="tipo-pessoa"
+          value="fisica"
+          required
+        />
+    </div>
+      <div class="pfisica"><label for="fisica">Pessoa Física</label><br />
+        <input
+          type="radio"
+          id="juridica"
+          name="tipo-pessoa"
+          value="juridica"
+          required
+        />
+    </div>
+      <div class="pjuri"><label for="juridica">Pessoa Jurídica</label><br /><br />
+
+        <label for="horario-contato">Melhor horário para contato:</label><br />
+        <select id="horario-contato" name="horario-contato" required class="opts">
+          
+            <option value="" class="opts">Selecione um horário</option>
+            <option value="manha" class="opts">Manhã (8h-12h)</option>
+            <option value="tarde" class="opts">Tarde (12h-18h)</option>
+            <option value="noite" class="opts">Noite (18h-22h)</option>
+            </select>
+        
+          <br /><br />
+  </div>
+      <div class="qualtipo"><label for="tipo-servico">Qual o tipo de serviço que deseja:</label><br />
+        <select id="tipo-servico" name="tipo-servico" required class="opts">
+          <option value="" class="opts">Selecione um serviço</option>
+          <option value="desenvolvimento-web" class="opts">Página Estática</option>
+          <option value="seo" class="opts">Página Dinâmica</option>
+          <option value="marketing" class="opts">Página Dinâmica com mais de 5 páginas</option></select
+        ><br /><br />
+    </div>
+
+      <div class="descricao"><label for="descricao">Descreva brevemente o que deseja contratar:</label
+        ><br />
+        <textarea
+          id="descricao"
+          name="descricao"
+          rows="4"
+          cols="50"
+          placeholder="Digite aqui uma breve descrição"
+          required
+          class="opts"></textarea
+        ><br /><br />
+    </div>
+
+      <div class="enviar">
+        <input type="submit" value="Enviar" />
+     </div>
+    </form>
+  </body>
+</html>
