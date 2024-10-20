@@ -1,0 +1,128 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Castoro", sans-serif;
+}
+
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(255, 255, 255, 0.123)),
+    url(imagens/japan-background-digital-art.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  position: fixed;
+}
+
+.enviar {
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.cabeca {
+  display: flex;
+  gap: 3rem;
+  font-weight: 250;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.logo a {
+  padding-right: 14rem;
+}
+
+.opts {
+  color: black;
+}
+
+.cabeca a {
+  display: flex;
+  gap: 5rem;
+  color: azure;
+  border-radius: 15px;
+  border: solid 2px aqua;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.cabeca a:hover {
+  color: rgb(87, 122, 240);
+  transition: 0.5s all;
+}
+
+form {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.imagem {
+  width: 3rem;
+  border-radius: 50%;
+  border: solid 2px aqua;
+  cursor: pointer;
+}
+
+.imagem:hover {
+  border-color: red;
+  transition: 0.5s;
+}
+
+.botao {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 12px;
+  width: 150px;
+}
+
+.botao:hover {
+  background-color: aqua;
+  transition: 0.6s;
+  color: black;
+  cursor: pointer;
+}
+
+label,
+select,
+textarea {
+  color: aliceblue;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding-top: 5px;
+  }
+
+  .cabeca {
+    display: flex;
+    gap: 1rem;
+    font-weight: 250;
+    font-size: 12px;
+  }
+
+  .imagem {
+    width: 2rem;
+    border-radius: 50%;
+    border: solid 1px aqua;
+    cursor: pointer;
+  }
+
+  .botao {
+    font-size: 10px;
+    width: 120px;
+  }
+}
